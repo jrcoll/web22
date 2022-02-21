@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+}
+
+p {
+  font-size: 72px;
+  font-family:  Montez, cursive;
+  letter-spacing: 1px;
+  color: yellow;
+  font-weight: bold;
+  text-align: center;
+  line-height: .05em;
+  padding-top: .2em;
+}
+
+div {
+  margin-top: 40vh;
+}
+
+.mobile-only {
+  display: none;
+}
+
+@media only screen and (max-width: 768px) {
+  body {
+    background-color: black;
+  }
+
+  .mobile-only {
+    display: block;
+  }
+
+  .desktop-only {
+    display: none;
+  }
+}
