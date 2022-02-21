@@ -1,5 +1,9 @@
 body {
-  margin: 0;
+  margin: none;
+}
+
+div {
+  margin-top: 40vh;
 }
 
 p {
@@ -7,14 +11,16 @@ p {
   font-family:  Montez, cursive;
   letter-spacing: 1px;
   color: yellow;
-  font-weight: bold;
   text-align: center;
   line-height: .05em;
-  padding-top: .2em;
 }
 
-div {
-  margin-top: 40vh;
+img {
+  margin-top: none !important;
+  position: absolute;
+  top: 50px;
+  max-width: 100%;
+  height: auto;
 }
 
 .mobile-only {
